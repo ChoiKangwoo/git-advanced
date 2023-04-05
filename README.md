@@ -38,6 +38,10 @@
 - [참고자료] (https://violet-bora-lee.github.io/git-tutorial/#reset)
 
 
+### git revert
+- 이미 push되어서 팀원간에 공유되고 있는 커밋을 되돌릴 땐 `git reset`을 사용할 수 없습니다. 대신 `git revert`를 사용해야 합니다.
+- `git revert`는 장애 상황을 해결할 때 많이 사용합니다. 장애를 유발시킨 코드가 들어가 있는 커밋만 revert 시키고 다시 배포하는 식으로 장애를 빠르게 해결할 수 있습니다.
+
 
 ## 작업 프로세스
 > 공동 작업을 할 때는 다음과 같은 프로세스로 진행한다.
